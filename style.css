@@ -1,0 +1,120 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ 
+
+:root {
+    --main-bg-color: #2455f4;
+  }
+
+
+*{
+    margin: 0;padding: 0;
+}
+
+
+header{
+     
+    background-color: var(--main-bg-color);
+    
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+    .logo img{
+    width: 88px;
+    padding:0 25px;
+
+    }
+nav ul{
+        height: 34px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 23px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        
+    }
+    nav ul li a:hover{
+        color: rgb(184, 196, 250);
+        text-decoration: none;
+        
+    }
+    .search{
+        display: flex;
+        align-items: center;
+    }
+    .search button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900px;
+
+    }
+    .search input{
+        padding: 0 12px;
+        width: 30vw;
+        height: 25px;
+        border-radius: 2px;
+        margin: 0 16px 0 56px;
+    }
+    .container{
+        min-height:calc(100vh - 58px - 12vh);
+        font-weight: bolder;
+    }
+    .slider{
+        overflow: hidden;
+        width: 80vw;
+        margin: 12px auto;
+        height: 23vh;
+    }
+   
+    
+    .card{
+        max-width: 91vw;
+        margin: 15px auto;
+        width: 12vw;
+        margin-left: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: -10px;
+    }
+    .card-item{
+        width: 10vw;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 15px;
+        /* text-align: center; */
+    }
+    .card h2{
+        font-family: 'Montserrat', sans-serif;    
+    }
+    .lines{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
